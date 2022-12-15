@@ -1,0 +1,105 @@
+*
+{
+box-sizing: border-box;
+}
+body
+{
+    background-color: rgb(0, 0, 0);
+}
+.loginbox
+{   position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50% , -50%);
+    background: #1e1e20;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 8px rgb(87, 93, 158);
+
+}
+h2
+{   margin: 0 0 30px;
+    padding: 10px 0;
+    color: rgb(87, 93, 158);
+    text-align: center;
+}
+.loginbox
+{   margin: 0 0 30px;
+    padding: 10px 0;
+    padding-left: 10px;
+    color: rgb(87, 93, 158);
+   
+}
+.loginbox .username input
+{
+position: relative;
+width: 100%;
+padding: 10px 0;
+font-size: 16px;
+color: #fff;
+margin-bottom: 30px;
+border: none;
+border-bottom: 1px solid #fff;
+outline: none;
+background: transparent;
+}
+.loginbox .username label
+{   
+    position: relative;
+    left: 0;
+    top: -60px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+.loginbox .username input:focus~label,
+.loginbox .username input:valid~label
+{
+    top: -85px;
+    left: 0;
+    color: rgb(87, 93, 158);
+    font-size: 12px;
+}
+#submit
+{
+    padding: 10px 20px;
+    color: blueviolet;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: -5s;
+    letter-spacing: 4px;
+    border: 1px solid rgb(87, 93, 158); ;
+    margin: auto;
+}
+#submit:hover
+{
+    color: rgb(87, 93, 158);;
+    border-radius: 5px;
+    box-shadow:0 0 5px ,0 0 25px #242024,0 0 50px #242024,0 0 100px #242024;     
+}
+.button
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+#register
+{
+    font-size: 14px;
+    text-decoration: none;
+    color:blueviolet ;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+#register a
+{
+    margin: auto;
+    color: aqua;
+    text-decoration: none;
+}

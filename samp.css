@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+.reg
+{   position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    padding: 40px;
+    transform: translate(-50% , -50%);
+    background: #6ae4e4;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px 8px rgb(91, 114, 109);
+    margin: 0 0 30px;
+    padding: 10px 0;
+    padding-left: 10px;
+    color: rgb(10, 17, 114);
+   
+
+}
+h2
+{   margin: 0 0 30px;
+    padding: 10px 0;
+    color: rgb(87, 93, 158);
+    text-align: center;
+}
+.reg .fstname input
+{
+    position: relative;
+    width: 300px;
+    padding: 5px 0;
+    font-size: 15px;
+    color: rgb(26, 75, 5);
+    margin-bottom: 30px;
+}
+.reg .fstname label
+{   
+    pointer-events: none;
+    transition: .5s;
+}

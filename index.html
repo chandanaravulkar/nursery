@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>nature</title>
+</head>
+<body>
+     <div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="category.html">Category</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </div>
+    <div class="one">
+   <h1>Green Homes</h1> 
+    <div class="slideshow">
+    <div class="my-slides fade">
+        <div class="number"> 1/4</div>
+        <img src="images\slide14.jpg" style="width:100%">
+    </div>
+    <div class="my-slides fade">
+        <div class="number">2/4</div>
+    <img src="images\slide12.jpg" style="width:100%">
+    
+    </div>
+    <div class="my-slides fade">
+        <div class="number">3/4</div>
+    <img src="images\slide1.jpg" style="width:100%">
+    
+    </div>
+    <div class="my-slides fade">
+        <div class="number">4/4</div>
+    <img src="images\slide6.jpg" style="width:100%">
+    
+    </div>
+    </div>
+    <div style="text-align:center">
+    <span class="circle"></span>
+    <span class="circle"></span>
+    <span class="circle"></span>
+    <span class="circle"></span>
+    </div>
+    
+    <p class="gift"> Are you a <b style="color:rgb(8, 102, 8)">Green Panther</b>  and want to fill your home with greenary?<br>Then you are at the right place.<br></p>
+    <p class="quote">Walking through the gardens may give happiness but never the satisfaction to our souls<br> Let's experience the love of gardening.<br></p> 
+          <p class="start">Let's get started</p><br>
+</div>
+          <script>
+            let slideIndex=0;
+            showSlides();
+
+              function showSlides()
+               {
+                   let i;
+                    let slides =document.getElementsByClassName("my-slides");
+ 
+                     for(i=0;i<slides.length;i++)
+                          {
+                            slides[i].style.display="none";
+                          }
+                            slideIndex++;
+                            if(slideIndex > slides.length)
+                                 {
+                                     slideIndex=1;
+                                 }
+
+                              slides[slideIndex-1].style.display="block";
+                                setTimeout(showSlides,2500);
+
+               }
+         </script>
+
+         <div class="main">
+            <div>
+            <img src="images\indoor8.jpeg">
+            </div> 
+            <div>
+            <p>Azalea<br>$399<br></p>
+            <p>Closely related to rhododendrons, azalea shrubs are usually deciduous woody plants that bloom in spring. <br>There is a vast array of colors available, inluding bright red azaleas such as <br>'Stewartstonian' (Rhododendron x Gable 'Stewartstonian'), suitable for growing in zones 5–8.<br> The green summer foliage of this red azalea yields to a mahogany color in winter, making it an ideal candidate to provide year-round interest on the landscape.
+            </p>
+            </div>
+         </div>
+         <div class="main">
+            <div>
+                <img src="images\bonsai10.jpeg " height="200px" width="200px">
+                </div> 
+                <div>
+                    <p >Bonsai<br>$599</p>
+                  <p>It has been around for well over a thousand years. <br>The ultimate goal of growing a Bonsai is to create a miniaturized but realistic representation of nature in the form of a tree.<br> Bonsai are not genetically dwarfed plants, in fact, any tree species can be used to grow one. Bonsai "Akirafutokoro Prince" (706 AD).</p>
+                </div>
+         </div>
+         <br>
+         <br>
+         <div class="main">
+            <div>
+                <img src="images/bonsa.jpeg" height="250px" width="250px">
+                </div>
+                <div>
+                    <p>Bromeliads<br>$499</p>
+                    <p>Bromeliads often have both striking foliage as well as flowers.<br> However, a bromeliad will only bloom once throughout its lifespan.<br> Though that seems like a bummer, especially if you bought the bromeliad for its blooms, the flowers actually last for a good portion of time—generally 3 to 6 months.</p>
+                </div>
+            </div>
+
+
+</body>
+</html>

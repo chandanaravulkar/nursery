@@ -1,0 +1,42 @@
+body
+{
+    background-color: #f2f2f2;
+}
+.plan
+{
+    width: 300px;
+    background-color: rgb(151, 127, 167);
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 10px rgb(114, 96, 96);
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.all
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    margin: 50px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    padding-left: 20px;
+}
+p
+{
+    font-size: 30px;
+    color: rgb(243, 46, 7);
+    font-weight: bold;
+     text-align: center;
+}
+.plan:hover
+{
+    background-color: rgb(154, 103, 117);
+    opacity: 1;
+    background: -moz-linear-gradient(-45deg,#e2a9e5 15%,#2b94e5 100%);
+    background: -webkit-linear-gradient(-45deg,#e2a9e5 15%,#2b94e5 100%);
+    background: linear-gradient(135deg,#e2a9e5 15%,#2b94e5 100%);
+    
+    
+}
